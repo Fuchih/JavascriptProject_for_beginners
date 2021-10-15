@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display        : flex;
+  justify-content: center;
+}
+
+.container {
+  width           : 50%;
+  height          : 200px;
+  border-radius   : 20px;
+  background-color: darkgray;
+  text-align      : center;
+}
+
+button {
+  width        : 40%;
+  height       : 50px;
+  border-radius: 20px;
+}
