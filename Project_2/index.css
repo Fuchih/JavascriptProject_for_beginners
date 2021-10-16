@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display        : flex;
+  justify-content: center;
+}
+
+.container {
+  display         : flex;
+  flex-direction  : column;
+  justify-content : center;
+  align-items     : center;
+  width           : 50%;
+  height          : 200px;
+  border-radius   : 20px;
+  background-color: darkgray;
+  text-align      : center;
+}
+
+.code {
+  border-radius   : 5px;
+  background-color: #fff;
+  color           : cornflowerblue;
+  font-size       : 32px;
+}
+
+.change {
+  margin: 10px 0;
+  color : red;
+}
+
+.change:active {
+  transform: scale(.95);
+}
+
+.text {
+  font-weight: 700;
+}
+
+input {
+  width        : 80%;
+  height       : 30px;
+  margin       : 20px 0;
+  border-radius: 10px;
+}
+
+button {
+  width        : 50%;
+  height       : 20px;
+  border-radius: 10px;
+}
