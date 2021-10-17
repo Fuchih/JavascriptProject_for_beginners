@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+#search {
+  width : 70%;
+  height: 36px;
+}
+
+#submit {
+  width : 20%;
+  height: 36px;
+}
+
+#show {
+  display: none;
+  width  : 70%;
+  border : 1px solid;
+}
+
+p {
+  margin : 0;
+  padding: 6px;
+  cursor : pointer;
+}
+
+p:hover {
+  background-color: #ccc;
+}
