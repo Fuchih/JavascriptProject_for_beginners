@@ -1,13 +1,16 @@
 window.onload = function () {
+  const randomCode = document.querySelector('.code')
+  const change = document.querySelector('.change')
+  const checkCode = document.querySelector('#checkCode')
   let res = getCode()
 
-  document.querySelector('.code').innerText = res
-  document.querySelector('.change').onclick = function () {
-    document.querySelector('.code').innerText = getCode()
+  randomCode.innerText = res
+  change.onclick = function () {
+    randomCode.innerText = getCode()
   }
 
-  document.querySelector('#checkCode').onclick = function () {
-    let code = document.querySelector('.code').innerText
+  checkCode.onclick = function () {
+    let code = randomCode.innerText
     let inputCode = document.querySelector('.inputCode').value
 
     if (code !== inputCode) {
