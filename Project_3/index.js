@@ -52,7 +52,7 @@ search.onkeyup = function () {
   */
 
   if (!search.value || !str) {
-    showList.innerHTML = 'Nothing matching ...'
+    showList.innerHTML = 'Nothing matching...'
   } else {
     showList.innerHTML = str
   }
