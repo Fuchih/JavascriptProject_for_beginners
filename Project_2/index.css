@@ -29,6 +29,7 @@ body {
 .change {
   margin: 10px 0;
   color : red;
+  cursor: pointer;
 }
 
 .change:active {

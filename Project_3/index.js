@@ -22,19 +22,34 @@ const list = [
   'Running from me',
   'Perfectly fake',
   'Off the map'
-]
+]// or you can use ajax to get data
 
 search.onkeyup = function () {
   showList.style.display = 'block'
-
   let str = ''
+
   list.forEach((item) => {
     let res = item.indexOf(search.value.trim())
+    const reg = /\s\S+|S+\s|\S/
 
-    if (res != -1) {
+    if (res != -1 && reg.test(search.value)) {
       str += `<p>${item}</p>`
     }
   })
+
+  /* ----same as above
+
+  for (let i = 0; i < list.length; i++) {
+    //  Regular Expression ↓↓↓
+    const reg = /\s\S+|S+\s|\S/
+    let res = list[i].indexOf(search.value.trim())
+
+    if (res != -1 && reg.test(search.value)) {
+      str += '<p>' + list[i] + '</p>'
+    }
+  }
+
+  */
 
   if (!search.value || !str) {
     showList.innerHTML = 'Nothing matching ...'
