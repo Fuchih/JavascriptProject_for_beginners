@@ -7,7 +7,7 @@ textarea {
   resize       : none;
 }
 
-button {
+#btn {
   display      : block;
   margin       : 15px 0;
   border-radius: 10px;
