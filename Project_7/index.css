@@ -1,0 +1,19 @@
+.bar {
+  width      : 350px;
+  height     : 30px;
+  line-height: 30px;
+  border     : 2px solid;
+}
+
+#loading {
+  width           : 0;
+  background-color: #ccc;
+  text-align      : center;
+}
+
+#btn {
+  width        : 100px;
+  height       : 30px;
+  margin-top   : 20px;
+  border-radius: 10px;
+}
