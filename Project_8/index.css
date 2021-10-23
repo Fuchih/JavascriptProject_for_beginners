@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+.container {
+  height    : 1500px;
+  background: linear-gradient(to bottom, black, darkgray);
+}
+
+h1 {
+  color: #fff;
+}
+
+.top {
+  position        : absolute;
+  top             : 400px;
+  right           : 10px;
+  width           : 50px;
+  height          : 50px;
+  line-height     : 50px;
+  background-color: #fff;
+  text-align      : center;
+  cursor          : pointer;
+}
+
+.top:active {
+  transform: scale(.95);
+}
