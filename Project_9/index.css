@@ -1,0 +1,53 @@
+* {
+  box-sizing      : border-box;
+  background-color: #ddd;
+}
+
+ul {
+  margin    : 0;
+  padding   : 0;
+  list-style: none;
+}
+
+body {
+  display        : flex;
+  justify-content: center;
+}
+
+.container {
+  width : 80%;
+  height: 250px;
+  border: 3px solid #eee;
+}
+
+ul {
+  display  : flex;
+  flex-wrap: wrap;
+  width    : 100%;
+  height   : 100%;
+
+}
+
+li {
+  width           : 10%;
+  height          : 50px;
+  line-height     : 50px;
+  margin          : 5px;
+  background-color: #aaa;
+  cursor          : pointer;
+  text-align      : center;
+  font-size       : 40px;
+}
+
+.screen {
+  width      : 50%;
+  height     : 50px;
+  line-height: 50px;
+  margin     : 10px auto;
+  border     : 3px solid #eee;
+  text-align : center;
+}
+
+.taken {
+  background-color: darkred;
+}
