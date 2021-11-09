@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Project_12</title>
+  </head>
+  <body>
+    <div id="app">
+      <fieldset>
+        <legend>User Information</legend>
+        <p>
+          <span>Name: </span>
+          <input type="text" class="user-name" />
+        </p>
+        <p>
+          <span>Age: </span>
+          <input type="text" class="user-age" />
+        </p>
+        <p>
+          <span>Gender: </span>
+          <select id="user-gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+          </select>
+        </p>
+        <p>
+          <span>Phone: </span>
+          <input type="text" class="user-phone" />
+        </p>
+        <p>
+          <button id="btn">Submit</button>
+        </p>
+      </fieldset>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Phone</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

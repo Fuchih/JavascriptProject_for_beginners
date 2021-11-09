@@ -1,0 +1,19 @@
+table {
+  width     : 100%;
+  margin-top: 20px;
+  border    : 1px solid;
+}
+
+thead {
+  background-color: cadetblue;
+}
+
+td {
+  border    : 1px solid;
+  text-align: center;
+}
+
+.delete {
+  background-color: brown;
+  cursor          : pointer;
+}
