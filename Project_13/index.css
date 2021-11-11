@@ -1,0 +1,48 @@
+* {
+  margin : 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  width           : 100px;
+  height          : 50px;
+  line-height     : 50px;
+  background-color: darkgray;
+  text-align      : center;
+  font-size       : 24px;
+  cursor          : pointer;
+}
+
+a {
+  color: #fff;
+}
+
+#nav1 {
+  display: flex;
+}
+
+#nav2,
+#nav3 {
+  display: none;
+}
+
+.nav-item1 {
+  margin-right: 100px;
+}
+
+.nav-item1:hover #nav2,
+.nav-item2:hover #nav3 {
+  display: block;
+}
+
+li:hover {
+  background-color: midnightblue;
+}
+
+.nav-item3 {
+  transform: translate(100px, -50px);
+}
