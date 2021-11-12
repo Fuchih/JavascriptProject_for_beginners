@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  background-color: brown;
+  color: #fff;
+}
+
+a {
+  display: block;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+li {
+  margin-bottom: 10px;
+}
