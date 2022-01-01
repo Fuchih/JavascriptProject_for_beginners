@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  overflow: hidden;
+  width   : 300px;
+  height  : 300px;
+  border  : 1px solid red;
+}
+
+.pics {
+  display       : flex;
+  flex-wrap     : wrap;
+  flex-direction: column;
+  width         : 300px;
+  height        : 300px;
+  transition    : all 1s;
+}
+
+.pic-1,
+.pic-2,
+.pic-3 {
+  float      : left;
+  width      : 300px;
+  height     : 300px;
+  line-height: 300px;
+  text-align : center;
+  font-size  : 36px;
+  color      : #fff;
+
+}
+
+.pic-1 {
+  background-color: cornflowerblue;
+}
+
+.pic-2 {
+  background-color: darkgoldenrod;
+}
+
+.pic-3 {
+  background-color: darkolivegreen;
+}
