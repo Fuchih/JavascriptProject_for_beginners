@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.origin-box {
+  overflow: hidden;
+  position: relative;
+  width   : 250px;
+  height  : 170px;
+}
+
+.magnifier {
+  position        : absolute;
+  top             : 0;
+  left            : 0;
+  width           : 50px;
+  height          : 50px;
+  background-color: rgba(230, 230, 54, 0.3);
+}
+
+.origin-river {
+  width: 100%;
+}
+
+.zoom-box {
+  display   : none;
+  overflow  : hidden;
+  position  : relative;
+  width     : 350px;
+  height    : 350px;
+  margin-top: 50px;
+}
+
+.zoom-river {
+  position: absolute;
+  top     : 0;
+  left    : 0;
+  width   : 2500px;
+  height  : 1700px;
+}
