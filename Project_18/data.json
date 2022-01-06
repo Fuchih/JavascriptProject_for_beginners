@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "chocolate cake",
+    "image": "https://res.cloudinary.com/t19887348/image/upload/v1641477727/sweets/cake-1_eqiy3d.jpg",
+    "category": "cakes",
+    "price": 19.86
+  },
+  {
+    "id": 2,
+    "name": "strawberry sweet",
+    "image": "https://res.cloudinary.com/t19887348/image/upload/v1641477728/sweets/sweets-2_maca9z.jpg",
+    "category": "sweets",
+    "price": 8.88
+  },
+  {
+    "id": 3,
+    "name": "chocolate donut",
+    "image": "https://res.cloudinary.com/t19887348/image/upload/v1641477727/sweets/doughnut-3_pltmtu.jpg",
+    "category": "donuts",
+    "price": 4.5
+  },
+  {
+    "id": 4,
+    "name": "matcha cake",
+    "image": "https://res.cloudinary.com/t19887348/image/upload/v1641477727/sweets/cake-3_rxqn25.jpg",
+    "category": "cakes",
+    "price": 12.75
+  },
+  {
+    "id": 5,
+    "name": "matcha donut",
+    "image": "https://res.cloudinary.com/t19887348/image/upload/v1641477727/sweets/doughnut-1_xaffkz.jpg",
+    "category": "donuts",
+    "price": 9.9
+  },
+  {
+    "id": 6,
+    "name": "chocolate sweet",
+    "image": "https://res.cloudinary.com/t19887348/image/upload/v1641477727/sweets/sweets-3_ceyvq0.jpg",
+    "category": "sweets",
+    "price": 6.5
+  },
+  {
+    "id": 7,
+    "name": "strawberry cake",
+    "image": "https://res.cloudinary.com/t19887348/image/upload/v1641477727/sweets/cake-2_efv3ft.jpg",
+    "category": "cakes",
+    "price": 15.99
+  },
+  {
+    "id": 8,
+    "name": "matcha sweet",
+    "image": "https://res.cloudinary.com/t19887348/image/upload/v1641477727/sweets/sweets-1_wm8i64.jpg",
+    "category": "sweets",
+    "price": 5.95
+  },
+  {
+    "id": 9,
+    "name": "strawberry donut",
+    "image": "https://res.cloudinary.com/t19887348/image/upload/v1641477727/sweets/doughnut-2_mb3gsu.jpg",
+    "category": "donuts",
+    "price": 7.99
+  }
+]
