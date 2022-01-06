@@ -1,5 +1,8 @@
-/* const xml = new XMLHttpRequest()
-xml.open('GET', './db.json')
+/*
+const url = 'https://res.cloudinary.com/t19887348/raw/upload/v1641455838/sdvrz4bsngvnxesy1tl2.json'
+
+const xml = new XMLHttpRequest()
+xml.open('GET', url)
 xml.send()
 xml.onreadystatechange = () => {
   if (xml.status === 200 && xml.readyState === 4) {
@@ -44,14 +47,17 @@ xml.onreadystatechange = () => {
   }
 } */
 
+const url =
+  'https://res.cloudinary.com/t19887348/raw/upload/v1641455838/sdvrz4bsngvnxesy1tl2.json'
+
 async function getData() {
-  const response = await axios.get('./db.json')
+  const response = await axios.get(url)
   return response.data.data
 }
 
 getData().then((res) => {
   li1 = ``
-  
+
   res.forEach((first) => {
     let li2 = ``
 
