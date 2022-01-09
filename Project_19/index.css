@@ -1,0 +1,84 @@
+* {
+  box-sizing      : border-box;
+  background-color: rgb(70, 68, 68);
+  user-select     : none;
+}
+
+body {
+  color: #fff;
+}
+
+table {
+  width          : 80%;
+  max-width      : 1200px;
+  margin         : 30px 0;
+  border-collapse: collapse;
+  text-align     : center;
+}
+
+td,
+th {
+  width         : 120px;
+  padding       : 0.5rem;
+  text-transform: capitalize;
+}
+
+tr {
+  border: 1px solid;
+}
+
+button {
+  width           : 50px;
+  border          : 0;
+  background-color: #0e90e0;
+  color           : #fff;
+  cursor          : pointer;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+input {
+  width : 20px;
+  height: 20px;
+}
+
+label {
+  padding: 0.5rem;
+}
+
+.items {
+  display  : flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: 15px;
+}
+
+img {
+  display: block;
+  width  : 250px;
+  height : 200px;
+}
+
+span {
+  margin: 0 15px 0 0;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.price {
+  color: #df4759;
+}
+
+p {
+  margin: 0;
+}
+
+.subtotal {
+  color: #df4759;
+}
