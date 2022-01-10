@@ -20,7 +20,7 @@
 | 16   | [Slider](https://github.com/Fuchih/JavascriptProject_for_beginners/tree/main/Project_16) | [**DEMO**](https://quirky-wescoff-1721bc.netlify.app/)       |
 | 17   | [Magnifier](https://github.com/Fuchih/JavascriptProject_for_beginners/tree/main/Project_17) | [**DEMO**](https://objective-darwin-4943ff.netlify.app/)     |
 | 18   | [Items filter](https://github.com/Fuchih/JavascriptProject_for_beginners/tree/main/Project_18) | [**DEMO**](https://vibrant-montalcini-470058.netlify.app/)   |
-| 19   |                                                              |                                                              |
+| 19   | [Shopping Cart](https://github.com/Fuchih/JavascriptProject_for_beginners/tree/main/Project_19)                                                             | [**DEMO**](https://cocky-ride-66e0da.netlify.app/)                                                             |
 | 20   |                                                              |                                                              |
 |      |                                                              |                                                              |
 |      |                                                              |                                                              |
