@@ -9,6 +9,8 @@ laptop.addEventListener('click', addItem)
 phone.addEventListener('click', addItem)
 printer.addEventListener('click', addItem)
 
+let nameList = []
+
 function addItem(e) {
   const tbody = document.querySelector('tbody')
   const item = e.target.parentNode
@@ -16,8 +18,13 @@ function addItem(e) {
   const title = itemInfo[0].innerText
   const price = itemInfo[1].innerText.substr(1)
 
-  tbody.innerHTML += `
-    <tr>
+  const flag = nameList.find((name) => name === title)
+
+  if (!flag) {
+    nameList = [title, ...nameList]
+
+    tbody.innerHTML += `
+    <tr id="${title}">
       <td>
         <input
           type="checkbox"
@@ -29,7 +36,7 @@ function addItem(e) {
       <td><label for="${Date.now()}">${title}</label></td>
       <td class="price">$${price}</td>
       <td>
-        <button onclick="increase(this)">+</button>
+        <button onclick="increase(this)" id="increase">+</button>
         <p class="amount">1</p>
         <button onclick="decrease(this)">-</button>
       </td>
@@ -37,6 +44,11 @@ function addItem(e) {
       <td><button onclick="deleteItem(this)">delete</button></td>
     </tr>
     `
+  } else {
+    const currentTr = tbody.querySelector(`#${title}`)
+    const current = currentTr.querySelector('#increase')
+    increase(current)
+  }
 }
 
 function checkAll() {
@@ -99,6 +111,8 @@ function deleteItem(current) {
   tbody.removeChild(currentTr)
   calculateTotal(tbody)
   checkAll()
+
+  nameList = nameList.filter((name) => name !== currentTr.getAttribute('id'))
 }
 
 function calculateSubtotal(current) {
